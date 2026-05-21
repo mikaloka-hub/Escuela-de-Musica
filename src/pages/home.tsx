@@ -1,5 +1,5 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
 import heroImage from '../assets/images/regenerated_image_1779364738039.jpg';
 import aboutImage from '../assets/images/regenerated_image_1779364739115.jpg';
 

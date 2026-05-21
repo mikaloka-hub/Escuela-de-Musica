@@ -4,8 +4,8 @@
  */
 
 import { useState, useEffect } from 'react';
-import Home from './pages/Home';
-import Booking from './pages/Booking';
+import Home from './pages/home';
+import Booking from './pages/booking';
 
 export default function App() {
   const [currentPath, setCurrentPath] = useState(window.location.hash || '#/');
