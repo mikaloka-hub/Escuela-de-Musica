@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-canvas-white: #f7f7f7;
+  --color-ash-gray: #e5e7eb;
+  --color-midnight-ink: #000000;
+  --color-graphite: #101516;
+  --color-steel-gray: #bec6cc;
+  --color-composer-blue: #1871da;
+  --color-emerald-green: #31805a;
+  --color-bubblegum-pink: #ffb4ed;
+  --color-vivid-green: #1ec072;
+  --color-hot-pink: #f6609f;
+  --color-cadet-blue: #1f86ff;
+  --color-sunny-yellow: #ffbb38;
+  --color-sunset-orange: #ff5500;
+  --color-action-red: #c60808;
+
+  --font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  --text-body-sm: 14px;
+  --text-body-sm--line-height: 1.43;
+  --text-body-sm--letter-spacing: 0.224px;
+  
+  --text-body: 16px;
+  --text-body--line-height: 1.43;
+  --text-body--letter-spacing: 0.4px;
+  
+  --text-subheading: 24px;
+  --text-subheading--line-height: 1.33;
+  --text-subheading--letter-spacing: 0.24px;
+  
+  --text-heading: 36px;
+  --text-heading--line-height: 1.25;
+  --text-heading--letter-spacing: 0.225px;
+  
+  --text-heading-lg: 56px;
+  --text-heading-lg--line-height: 1.11;
+  --text-heading-lg--letter-spacing: -0.96px;
+
+  --radius-button: 9999px;
+  --radius-default: 6px;
+  --radius-card: 12px;
+
+  --shadow-subtle: rgba(24, 113, 218, 0.25) 0px 1px 2px 0px;
+  --shadow-contained: rgba(0, 0, 0, 0.01) 45px 68px 33px 0px, rgba(0, 0, 0, 0.02) 25px 38px 27px 0px, rgba(0, 0, 0, 0.03) 11px 17px 20px 0px, rgba(0, 0, 0, 0.04) 3px 4px 11px 0px;
+}
+
+body {
+  background-color: var(--color-canvas-white);
+  color: var(--color-midnight-ink);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
